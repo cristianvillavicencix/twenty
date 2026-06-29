@@ -1,0 +1,1 @@
+export const DEFAULT_CALL_RECORDER_BOT_IMAGE_BACKGROUND = '#ffffff';
