@@ -69,7 +69,7 @@ export const FooterNote = ({
   if (!isOnAWorkspace) {
     return (
       <StyledCopyContainer>
-        <Trans>By using Twenty, you agree to the</Trans>{' '}
+        <Trans>By using AACRM, you agree to the</Trans>{' '}
         <a
           href="https://twenty.com/legal/terms"
           target="_blank"

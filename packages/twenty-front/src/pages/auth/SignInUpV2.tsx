@@ -104,7 +104,7 @@ export const SignInUpV2 = () => {
     }
 
     if (isGlobalScope) {
-      return t`Welcome to Twenty`;
+      return t`Welcome to AACRM`;
     }
 
     const workspaceName = workspacePublicData?.displayName;

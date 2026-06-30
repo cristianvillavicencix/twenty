@@ -1,0 +1,12 @@
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aacrm-bg" x1="0" y1="0" x2="192" y2="192" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="44" fill="url(#aacrm-bg)"/>
+  <text x="96" y="97" fill="#FFFFFF" font-family="Inter, -apple-system, Helvetica, Arial, sans-serif"
+        font-size="104" font-weight="800" letter-spacing="-6"
+        text-anchor="middle" dominant-baseline="central">AA</text>
+</svg>
