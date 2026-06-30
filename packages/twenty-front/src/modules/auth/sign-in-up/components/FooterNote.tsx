@@ -70,28 +70,16 @@ export const FooterNote = ({
     return (
       <StyledCopyContainer>
         <Trans>By using AACRM, you agree to the</Trans>{' '}
-        <a
-          href="https://twenty.com/legal/terms"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="/">
           <Trans>Terms of Service</Trans>
         </a>{' '}
         <Trans>and</Trans>{' '}
         {secondaryAgreement === 'dataProcessingAgreement' ? (
-          <a
-            href="https://twenty.com/legal/dpa"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="/">
             <Trans>Data Processing Agreement</Trans>
           </a>
         ) : (
-          <a
-            href="https://twenty.com/legal/privacy"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="/">
             <Trans>Privacy Policy</Trans>
           </a>
         )}
@@ -110,19 +98,11 @@ export const FooterNote = ({
           <StyledSeparator>•</StyledSeparator>
         </>
       )}
-      <a
-        href="https://twenty.com/legal/privacy"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href="/">
         <Trans>Privacy Policy</Trans>
       </a>
       <StyledSeparator>•</StyledSeparator>
-      <a
-        href="https://twenty.com/legal/terms"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href="/">
         <Trans>Terms of Service</Trans>
       </a>
     </StyledLinksContainer>

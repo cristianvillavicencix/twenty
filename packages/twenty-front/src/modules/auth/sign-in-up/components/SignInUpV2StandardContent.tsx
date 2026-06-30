@@ -29,7 +29,6 @@ export const SignInUpV2StandardContent = ({
       <AnimatedEaseIn>
         <Logo
           secondaryLogo={workspacePublicData?.logo}
-          placeholder={workspacePublicData?.displayName}
           onClick={onClickOnLogo}
           to={AppPath.SignInUpV2}
         />

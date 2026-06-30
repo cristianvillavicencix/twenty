@@ -67,7 +67,6 @@ const StandardContent = ({
       <AnimatedEaseIn>
         <Logo
           secondaryLogo={workspacePublicData?.logo}
-          placeholder={workspacePublicData?.displayName}
           onClick={onClickOnLogo}
         />
       </AnimatedEaseIn>

@@ -220,7 +220,6 @@ export const PasswordReset = () => {
           <AnimatedEaseIn>
             <Logo
               secondaryLogo={workspacePublicData?.logo}
-              placeholder={workspacePublicData?.displayName}
             />
           </AnimatedEaseIn>
           <Title animate>{passwordActionLabel}</Title>
