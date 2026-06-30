@@ -291,3 +291,14 @@ LABEL org.opencontainers.image.source=https://github.com/twentyhq/twenty
 LABEL org.opencontainers.image.description="All-in-one Twenty image for local development and SDK usage. Includes PostgreSQL, Redis, server, and worker."
 
 ENTRYPOINT ["/init"]
+
+
+# ===========================================================================
+# Target: render (DEFAULT / last stage) — used by Railway & Render.
+#   These PaaS providers build the LAST Dockerfile stage and offer no
+#   --target option, so we re-export the standard `twenty` image here
+#   (server + frontend). With BuildKit only this stage's dependency graph
+#   is built, so the s6/all-in-one dev stages above are skipped.
+# ===========================================================================
+
+FROM twenty AS render
